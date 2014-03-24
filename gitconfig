@@ -1,6 +1,6 @@
 [user]
-	name = Gianluigi Di Donato 
-	email = gianluigi.didonato@gmail.com
+	name = Francesco Gnarra
+	email = francesco.gnarra@gmail.com
 [apply]
     whitespace = nowarn
 [core]
@@ -15,6 +15,7 @@
     ls = ls-files 
     pl = !git fetch && git merge FETCH_HEAD
     ps = push origin master
+    rc = reset && clear
     st = status
     wc = whatchanged --oneline
     unpushed = !GIT_CURRENT_BRANCH=$(git name-rev --name-only HEAD) && git lg origin/$GIT_CURRENT_BRANCH..$GIT_CURRENT_BRANCH
